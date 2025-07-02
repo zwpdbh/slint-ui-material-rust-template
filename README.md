@@ -2,6 +2,15 @@
 
 A template for a Rust Application using Slint with [material components](https://github.com/slint-ui/material-components). Based on the material gallery. 
 
+## My Notes 
+
+After git clone this project, run following commands to sync submodule and update them.
+
+```sh 
+git submodule sync
+git submodule update --init --recursive
+```
+
 ## About
 
 This template helps you get started developing a Rust application with Slint as a toolkit

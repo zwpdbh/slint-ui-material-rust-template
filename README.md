@@ -11,31 +11,6 @@ git submodule sync
 git submodule update --init --recursive
 ```
 
-## About
-
-This template helps you get started developing a Rust application with Slint as a toolkit
-for the user interface and the material component set. It demonstrates the integration between the `.slint`
-UI markup and Rust code, how to react to callbacks, get and set properties, and use of all available
-material components for Slint.
-
-## Disclaimer
-
-The material components are currently available as a technical preview. Some components are still missing and changes to the api
-are possible. We will inform as soon as the component set is read for release.
-
-## Usage
-
-We recommend using an IDE for development, along with our [LSP-based IDE integration for `.slint` files](https://github.com/slint-ui/slint/blob/master/tools/lsp/README.md). You can also load this project directly in [Visual Studio Code](https://code.visualstudio.com) and install our [Slint extension](https://marketplace.visualstudio.com/items?itemName=Slint.slint).
-
-1. Install Rust by following its [getting-started guide](https://www.rust-lang.org/learn/get-started).
-   Once this is done, you should have the `rustc` compiler and the `cargo` build system installed in your `PATH`.
-2. Clone this repository
-
-   ```sh
-   git clone --recurse-submodules https://github.com/slint-ui/material-rust-template.git my-project
-   cd my-project
-   ```
-
 ## Run your application on desktop
 
 1. Build with `cargo`:
